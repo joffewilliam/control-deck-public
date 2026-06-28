@@ -1,0 +1,57 @@
+name: Bug report
+description: Something broke or behaved unexpectedly in the trial.
+title: "[bug] "
+labels: ["type:bug", "release:trial"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Control Deck. **Do not paste API keys, tokens,
+        license keys, private prompts, customer data, or full terminal transcripts.**
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, and what went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: Paste the block from Settings → Help & Feedback → Copy diagnostics.
+      render: text
+    validations:
+      required: false
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: Can you reproduce it?
+      options:
+        - "Always"
+        - "Sometimes"
+        - "Once"
+        - "Not sure"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: >
+        Logs are at Settings → Advanced → Open logs folder. Redact any secrets
+        before attaching.
+    validations:
+      required: false

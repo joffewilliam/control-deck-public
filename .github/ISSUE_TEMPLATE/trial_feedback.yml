@@ -1,0 +1,45 @@
+name: Trial feedback
+description: Tell us how the trial went — what worked, what didn't, what would make you pay.
+title: "[feedback] "
+labels: ["type:feedback", "release:trial"]
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What were you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: useful
+    attributes:
+      label: What felt useful?
+    validations:
+      required: false
+  - type: textarea
+    id: confusing
+    attributes:
+      label: What felt confusing or unreliable?
+    validations:
+      required: false
+  - type: textarea
+    id: blocked
+    attributes:
+      label: Did anything block you?
+    validations:
+      required: false
+  - type: textarea
+    id: pay
+    attributes:
+      label: What would make you pay for this?
+    validations:
+      required: false
+  - type: checkboxes
+    id: providers
+    attributes:
+      label: Provider CLIs you used
+      options:
+        - label: Claude
+        - label: Codex
+        - label: Cursor
+        - label: OpenCode
+        - label: Other

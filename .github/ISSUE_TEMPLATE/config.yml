@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability (private)
+    url: https://github.com/joffewilliam/control-deck-public/security/advisories/new
+    about: Report security issues privately, not as a public issue.
+  - name: Install guide
+    url: https://github.com/joffewilliam/control-deck-public/blob/main/docs/TRIAL-INSTALL.md
+    about: How to install the trial and get past the SmartScreen prompt.
