@@ -15,7 +15,7 @@ will vary, but security reports are prioritized.
 
 ## Scope
 
-This repository hosts the trial downloads, docs, and feedback for Control Deck.
+This repository hosts the downloads, docs, and feedback for Control Deck.
 Reports about the application itself (installer, updater, agent execution, secret
 handling) are in scope.
 
