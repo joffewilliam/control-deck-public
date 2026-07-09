@@ -1,6 +1,6 @@
 # Control Deck — End User License Agreement
 
-_Last updated: 2026-07-02_
+_Last updated: 2026-07-08_
 
 Control Deck ("the Software") is developed and distributed by an individual sole
 developer operating as Control Deck ("the Developer", "I", or "me"), not a
