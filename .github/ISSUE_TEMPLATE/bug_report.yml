@@ -1,7 +1,7 @@
 name: Bug report
-description: Something broke or behaved unexpectedly in the trial.
+description: Something broke or behaved unexpectedly in Control Deck.
 title: "[bug] "
-labels: ["type:bug", "release:trial"]
+labels: ["type:bug"]
 body:
   - type: markdown
     attributes:

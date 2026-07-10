@@ -22,9 +22,9 @@ Windows 10/11 (x64). Download the latest `Ctrl Deck Setup.exe` from the
 [**Releases**](https://github.com/joffewilliam/control-deck-public/releases) page,
 then activate it with your license key on first run.
 
-> The installer is not code-signed yet, so Windows SmartScreen shows an
-> "Unknown publisher" prompt on first install — click **More info → Run anyway**.
-> See the [Install guide](docs/INSTALL.md). Signed builds are on the way.
+Public installers are Authenticode signed. Each release also includes SHA-256
+checksums, an SBOM, and build metadata. See the [Install guide](docs/INSTALL.md)
+before running the installer.
 
 ## Requirements
 

@@ -1,8 +1,13 @@
-name: Trial feedback
-description: Tell us how the trial went — what worked, what didn't, what would make you pay.
+name: Product feedback
+description: Tell us what worked, what did not, and what would improve Control Deck.
 title: "[feedback] "
-labels: ["type:feedback", "release:trial"]
+labels: ["type:feedback"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Control Deck. **Do not paste API keys, tokens,
+        license keys, private prompts, customer data, or terminal transcripts.**
   - type: textarea
     id: workflow
     attributes:
@@ -25,12 +30,6 @@ body:
     id: blocked
     attributes:
       label: Did anything block you?
-    validations:
-      required: false
-  - type: textarea
-    id: pay
-    attributes:
-      label: What would make you pay for this?
     validations:
       required: false
   - type: checkboxes

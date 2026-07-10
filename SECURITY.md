@@ -10,8 +10,7 @@ Use GitHub's private vulnerability reporting:
 (<https://github.com/joffewilliam/control-deck-public/security/advisories/new>).
 
 Include what you found, how to reproduce it, and the impact. You'll get an
-acknowledgement as soon as possible. As a solo-developer preview, response times
-will vary, but security reports are prioritized.
+acknowledgement as soon as possible. Security reports are prioritized.
 
 ## Scope
 
